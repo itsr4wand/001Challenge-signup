@@ -1,0 +1,168 @@
+/*
+-> By itsR4wand
+-> website rawandev.top 
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Gabarito:wght@400;700&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gabarito", sans-serif;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  width: 100%;
+  background-color: #364fc7;
+}
+
+.signup-box {
+  min-height: 480px;
+  gap: 1rem;
+  display: flex;
+  padding: 12px;
+  margin: 12px 8px;
+  border-radius: 22px;
+  background-color: #fff;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+@media (max-width: 480px) {
+  .signup-box {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 767px) {
+  .signup-box {
+    min-width: 767px;
+  }
+}
+
+.left-box {
+  display: grid;
+  padding: 26px 28px;
+  border-radius: 12px;
+  background-color: #364fc7;
+  max-width: 333px;
+  width: 100%;
+}
+
+.brand-logo {
+  background-color: #edf2ff;
+  color: #364fc7;
+  height: 62px;
+  width: 62px;
+  font-size: 16px;
+  font-weight: bold;
+  display: grid;
+  place-items: center;
+  border-radius: 360%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.brand-name {
+  margin: 8px 0;
+  font-size: 26px;
+  color: #edf2ff;
+  font-weight: 400;
+}
+
+.signup-image {
+  max-width: 100%;
+}
+
+.right-box {
+  width: 100%;
+}
+
+.signin {
+  text-align: right;
+  font-size: 13px;
+  color: #868e96;
+}
+
+.sign-link {
+  color: #364fc7;
+  transition: 0.5s;
+}
+
+.sign-link:hover {
+  color: #4263eb;
+}
+
+.signup-title {
+  color: #343a40;
+  margin: 12px 0;
+  font-size: 24px;
+}
+
+.form-input-div {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-input-div span {
+  color: #495057;
+  font-size: 14px;
+}
+
+.form-input {
+  margin-top: 3px;
+  min-height: 48px;
+  border-radius: 12px;
+  border: 0;
+  outline: 0;
+  background-color: #f1f3f5;
+  color: #212529;
+  padding: 12px;
+}
+
+.form-button {
+  cursor: pointer;
+  margin-top: 16px;
+  min-height: 48px;
+  font-size: 14px;
+  display: flex;
+  padding: 12px;
+  align-items: center;
+  width: 100%;
+  border-radius: 12px;
+  background-color: #343a40;
+  color: #f8f9fa;
+  border: 0;
+  outline: 0;
+  transition: 0.5s;
+}
+
+.form-button svg {
+  margin-left: auto;
+  stroke: #f8f9fa;
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  width: 24px;
+  height: 24px;
+  fill: none;
+}
+
+.form-button:hover {
+  border-radius: 10px;
+  background-color: #212529;
+}
+
+/*
+-> By itsR4wand
+-> website rawandev.top 
+*/
